@@ -1,6 +1,6 @@
 const https = require('https')
 
-const d = (name, options) => {
+module.exports = (name, options) => {
   return new Promise((resolve, reject) => {
     if (!name || typeof name !== 'string') {
       return reject('The first argument "name" should be a valid string')
@@ -33,12 +33,4 @@ const d = (name, options) => {
       })
   })
 }
-d('neura', {full: true})
-  .then((result) => {
-    console.log({result})
-  })
-  .catch((s) => {
-    console.log(s)
-  })
 
-module.exports = d
