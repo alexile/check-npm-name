@@ -1,15 +1,20 @@
 {
   "name": "check-npm-name",
   "version": "1.0.1",
-  "description": "Check is name available in npm.org, powerful and lightweight",
-  "main": "index.js",
+  "description": "Check is name available in npmjs.com. Lightweight. 100% versions support. Zero dependency",
+  "main": "./src/index.js",
+  "keywords": [
+    "check npm name",
+    "availability of npm package name",
+    "npm",
+    "package",
+    "check",
+    "zero dependency"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/alexile/check-npm-name"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "alexile",
   "license": "MIT"
 }
