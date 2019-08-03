@@ -1,6 +1,6 @@
 {
   "name": "check-npm-name",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check is name available in npmjs.com. Lightweight. 100% versions support. Zero dependency",
   "main": "./src/index.js",
   "keywords": [
